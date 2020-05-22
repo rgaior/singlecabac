@@ -1,0 +1,414 @@
+<Cluster>
+<Name>Measurement setting IN</Name>
+<NumElts>6</NumElts>
+<EW>
+<Name>ClockorBias</Name>
+<Choice>Bias</Choice>
+<Choice>Clock</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>Signal name</Name>
+<Val>OD</Val>
+</String>
+<Array>
+<Name>Set Values</Name>
+<Dimsize>0</Dimsize>
+<DBL>
+<Name>Numeric</Name>
+<Val></Val>
+</DBL>
+</Array>
+<DBL>
+<Name>Repetition</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EW>
+<Name>TypeofMeas</Name>
+<Choice>Slope</Choice>
+<Choice>Value</Choice>
+<Choice>Noise</Choice>
+<Val>2</Val>
+</EW>
+<Path>
+<Name>TS path</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>CABACinput</Name>
+<NumElts>78</NumElts>
+<U8>
+<Name>PCLK0_Rise</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>PCLK0_Fall</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>PCLK1_Rise</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>PCLK1_Fall</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>PCLK2_Rise</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>PCLK2_Fall</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>PCLK3_Rise</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>PCLK3_Fall</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>SCLK0_Rise</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>SCLK0_Fall</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>SCLK1_Rise</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>SCLK1_Fall</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>SCLK2_Rise</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>SCLK2_Fall</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>RG  Rise</Name>
+<Val>0</Val>
+</U8>
+<DBL>
+<Name>OD0_exp</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>OD1_exp</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>OD0_rd</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>OD1_rd</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>RD</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>GD</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>OG</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>SPARE</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>En Mux 0</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>En Mux 1</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>Mux 0 add</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Mux 1 add</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Offset Mux0</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Offset Mux1</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Exp_clk</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>Bias Hz</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>Secure</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Pulse_en</Name>
+<Val>0</Val>
+</Boolean>
+<U8>
+<Name>RG Fall</Name>
+<Val>0</Val>
+</U8>
+<Boolean>
+<Name>R/W PCLK0</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>use PCLK0</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>R/W PCLK1</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>use PCLK1</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>R/W PCLK2</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>use PCLK2</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>R/W PCLK3</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>use PCLK3</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>R/W SCLK0</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>use SCLK0</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>R/W SCLK1</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>use SCLK1</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>R/W SCLK2</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>use SCLK2</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>R/W RG</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>use RG</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>R/W OD0_exp</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>use OD0_exp</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>R/W RD</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>use RD</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>R/W OD0_rd</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>use OD0_rd</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>R/W OG</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>use OG</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>R/W  OD1_exp</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>use OD1_exp</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>R/W GD</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>use GD</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>R/W OD1_rd</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>use OD1_rd</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>R/W SPARE</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>use SPARE</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>R/W  Mux</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>use Mux</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>R/W Exp_clk</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>use Exp_clk</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>R/W Secure</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>use Secure</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>R/W Pulse_en</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>use Pulse_en</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>R/W Bias_Hz</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>use Bias_Hz</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>R/W Offset Mux</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>use Offset Mux</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Array>
+<Name>ClockData</Name>
+<Dimsize>0</Dimsize>
+<U32>
+<Name>Numeric</Name>
+<Val></Val>
+</U32>
+</Array>
+<Cluster>
+<Name>Paths</Name>
+<NumElts>2</NumElts>
+<Path>
+<Name>TS path</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>data out path</Name>
+<Val>C:\DAMIC\SingleCABAC\data\test</Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>MeasData</Name>
+<NumElts>5</NumElts>
+<EW>
+<Name>ClockorBias</Name>
+<Choice>Bias</Choice>
+<Choice>Clock</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>TypeofMeas</Name>
+<Choice>Slope</Choice>
+<Choice>Value</Choice>
+<Choice>Noise</Choice>
+<Val>0</Val>
+</EW>
+<String>
+<Name>comment</Name>
+<Val></Val>
+</String>
+<Array>
+<Name>Array</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>result</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Numeric</Name>
+<Val></Val>
+</DBL>
+<String>
+<Name>description</Name>
+<Val></Val>
+</String>
+</Cluster>
+</Array>
+<String>
+<Name>signal name</Name>
+<Val></Val>
+</String>
+</Cluster>
