@@ -1,5 +1,5 @@
 ################################
-## reader class ##
+## Scan class ##
 ################################
 
 import math
@@ -39,7 +39,7 @@ class Scan:
         a_measparam = np.array([])
         a_measparam1 = np.array([])
         for file in self.files:
-            print (file)
+#            print (file)
             r = reader.Reader(file)
             meas = r.getmeas()
             if self.typeofsignal == 'clock': 
@@ -47,7 +47,7 @@ class Scan:
                 setrise = float(meas.setvalues[0])
                 measrise = float(meas.measvalue['Rise'])
                 measfall = float(meas.measvalue['Fall'])
-                print ('measrise = ' , measrise, ' measfall = ' , measfall)
+#                print ('measrise = ' , measrise, ' measfall = ' , measfall)
                 if self.scantype == 'fall':
                     a_setparam = np.append(a_setparam, setfall)
                     a_measparam = np.append(a_measparam, measfall)

@@ -54,11 +54,8 @@ class Reader:
                             meas.setvalues = setval 
                         if  name == 'Repetition':
                             meas.repetition = int(subchild.find('Val').text)
-#                        if  name == 'UseTS':
-#                            meas.UseTS = subchild.find('Val')
                         if  name == 'TS path':
                             meas.TSpath = subchild.find('Val').text
-#                            print ' s;adkfnl;k ', subchild.find('Val').text
                         if name == 'CABACnumber':
                             meas.cabacnumber = int(subchild.find('Val'),text)
                     except:
